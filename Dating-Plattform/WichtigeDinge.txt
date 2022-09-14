@@ -1,0 +1,24 @@
+DateWay - Kostenfrei Daten
+
+Registrierung:
+-----------------------------
+
+Vorname: ________________
+Nachname: _______________
+Email-Addresse: _________________
+Email-Addresse wiederholen: ___________________
+Passwort: ______________________
+Passwort wiederholen: ___________________
+Geschlecht: ______________________________
+Geburtsdatum: ___________________________
+Meine Interessen (Die Anderen können deine Interessen Sehen): _______________________
+
+--------------------------
+
+Login:
+
+-------------------------
+
+E-Mail Addresse: __________________
+Benutzername: _____________________
+Passwort: _________________________

@@ -1,0 +1,331 @@
+#body {
+  margin: 40px auto;
+}
+
+#Head-Überschrift {
+  margin-left: 600px;
+  font-size: 50px;
+  font-family: sans-serif;
+  color: pink;
+}
+
+#trennstrich01 {
+  max-width: 75%;
+  height: 3px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  background-color: gray;
+}
+
+#trennstrich02 {
+  height: 1px;
+  max-width: 50%;
+  border: 1px solid gray;
+  border-radius: 2px;
+  background-color: gray;
+  margin-top: -10px;
+}
+
+
+#bodyteil {
+  max-width: 90%;
+  height: 700px;
+
+  display: flex;
+  justify-content: left;
+
+  padding: 50px;
+
+  box-sizing: border-box;
+
+  z-index: 0;
+}
+
+#Registrierung {
+  /*background-color: rgba(225, 200, 200, 0.25);*/
+
+  background: linear-gradient(130deg, rgba(225, 200, 200, 0.25), rgba(225, 150, 150, 0.5), rgba(100, 50, 47, 0.75), rgba(178, 213, 65, 0.55));
+  background-size: 400% 400%;
+
+  height: 400px;
+  width: 600px;
+
+  margin-left: 450px;
+  padding: 20px;
+
+  float: left;
+
+  text-align: left;
+
+  animation: colorMoving 10s linear infinite;
+}
+
+@keyframes colorMoving {
+  0%{
+    background-position: 0% 50%;
+  }
+  20%{
+    background-position: 20% 50%;
+  }
+  40%{
+    background-position: 40% 50%;
+  }
+  50%{
+    background-position: 60% 50%;
+  }
+  60%{
+    background-position: 40% 50%;
+  }
+  80%{
+    background-position: 20% 50%;
+  }
+  100%{
+    background-position: 0% 50%;
+  }
+}
+
+#Registrierung-Überschrift {
+  margin-left: 190px;
+  margin-top: 3px;
+  font-family: sans-serif;
+}
+
+#Vorname-label {
+  font-family: sans-serif;
+  float: left;
+  margin: 1px;
+  margin-top: 5px;
+}
+
+#Nachname-label {
+  font-family: sans-serif;
+  float: left;
+  margin: 1px;
+  margin-top: 5px;
+  margin-left: -70px;
+}
+
+#Email-Addresse-label {
+  margin-left: -109px;
+}
+
+#Passwort-label {
+  margin-left: -123px;
+}
+
+#Passwort-Wiederholen-label {
+  margin-left: 1px;
+}
+
+#Geschlecht-label {
+  margin-left: -147px;
+}
+
+#Nutzungsbedingungen-akzeptieren-label {
+  font-size: 12px;
+  margin-top: 9px;
+  margin-left: 0px;
+  max-width: 250px;
+}
+
+#Nutzungsbedingungen-Checkbox-CSS {
+  width: 15px;
+  height: 15px;
+
+  outline: none;
+  background-color: red;
+  margin-left: 30px;
+  pointer-events: none;
+
+  float: left;
+}
+
+.labelstyle {
+  font-family: sans-serif;
+  float: left;
+  margin: 1px;
+  margin-top: 5px;
+}
+
+.textfields {
+  width: 80px;
+  height: 10px;
+
+  padding: 4px;
+  margin-left: 50px;
+  margin-top: 4px;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Labelstyel */
+
+#Vorname-Text-CSS {
+  margin-left: 97px;
+}
+
+#Nachname-Text-CSS {
+  margin-left: 84px;
+}
+
+#Benutzername-label {
+  margin-left: -83px;
+}
+
+#Benutzername-Text-CSS {
+  margin-left: 57px;
+}
+
+#Email-Text-CSS {
+  margin-left: 42px;
+}
+
+#Passwort-Text-CSS {
+  margin-left: 42px;
+}
+
+#Passwort-Wiederholen-Text-CSS {
+  margin-left: 20px;
+}
+
+#Geschlecht-Selection-CSS {
+  margin-left: 20px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+
+  background-color: pink;
+  margin-top: 5px;
+}
+
+#Geschlecht-Selection-CSS option {
+  background: none;
+}
+
+#Nutzungsbedingungen-öffnen {
+  color: rgba(100, 100, 200, 0.85);
+}
+
+#registrieren {
+  margin-left: -30px;
+  margin-top: 50px;
+
+  font-weight: 900;
+
+  padding: 7px 13px;
+
+  background-color: rgba(225, 200, 200, 0.30);
+
+  border-color: rgba(200, 100, 100, 0.30);
+  border-style: solid;
+  border-radius: 10px;
+
+  transition: ease-in all 100ms;
+}
+
+#Nutzungsbedingungen-Fenster {
+  background-color: rgba(200, 200, 200, 0.75);
+
+  height: 650px;
+  width: 800px;
+
+  display: none;
+  pointer-events: none;
+  overflow: auto;
+  position: absolute;
+  top: 150px;
+  bottom: 0px;
+  left: 450px;
+  padding: 10px;
+
+  box-sizing: border-box;
+
+  border: 15px solid gray;
+  border-radius: 20px;
+
+  z-index: 10;
+}
+
+#Nutzungsbedingungen {
+  max-width: 500px;
+  max-height: 350px;
+  overflow: auto;
+  float: left;
+
+  border: 10px solid gray;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 100px;
+
+  position: relative;
+  left: 100px;
+  bottom: 80px;
+}
+
+#Nutzungsbedingungen-Titel {
+  font-family: sans-serif;
+  margin-left: 170px;
+  font-weight: 900;
+}
+
+#Nutzungsbedingungen-Text {
+  font-family: sans-serif;
+}
+
+#Nutzungsbedingungen-akzeptieren-button {
+  transform: scale(1.5);
+
+  position: absolute;
+  top: 575px;
+  right: 80px;
+  padding: 3px;
+
+  background: none;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 5px;
+
+  transition: ease-in-out all 100ms;
+}
+
+#Nutzungsbedingungen-schliessen-button {
+  transform: scale(1.58);
+
+  position: absolute;
+  top: 575px;
+  right: 630px;
+  padding: 3px;
+
+  background: none;
+  border-style: solid;
+  border-color: gray;
+  border-width: 1px;
+  border-radius: 5px;
+
+  transition: ease-in-out all 100ms;
+}
+
+#Nutzungsbedingungen-schliessen-button:hover {
+  transform: scale(2);
+  background-color: rgba(150, 150, 150, 0.3);
+}
+
+#Nutzungsbedingungen-akzeptieren-button:hover {
+  transform: scale(1.9);
+  background-color: rgba(150, 150, 150, 0.3);
+}
+
+#registrieren:hover {
+  background-color: rgba(225, 200, 200, 0.9);
+
+  transform: scale(1.2);
+}
+
+#Nutzungsbedingungen-öffnen:hover {
+  color: rgba(50, 50, 200, 0.85);
+  text-decoration: underline;
+  cursor: pointer;
+}
