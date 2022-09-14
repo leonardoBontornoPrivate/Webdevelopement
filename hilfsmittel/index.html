@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <title>Hilfs tools</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <link type="image/x-icon" rel="icon" href="Bilder/helpdesk_Icon.png">
+  </head>
+  <body>
+    <div id="head">
+      <p id="title">Programming HelpDesk</p>
+      <p id="credits">Created by Leonardo Bontorno</p>
+      <div id="Logo"></div>
+    </div>
+    <div id="container1">
+    <div id="section1">
+      <p id="section1-title">Colors</p>
+      <hr>
+      <div id="color-buttons">
+        <button onclick="dirR()" class="rgb-btn" id="R">R</button><input class="range-rgb" id="range-R" oninput="rangeColor()" value="0" min="0" max="255" type="range"><br>
+        <button onclick="dirG()" class="rgb-btn" id="G">G</button><input class="range-rgb" id="range-G" oninput="rangeColor()" value="0" min="0" max="255" type="range"><br>
+        <button onclick="dirB()" class="rgb-btn" id="B">B</button><input class="range-rgb" id="range-B" oninput="rangeColor()" value="0" min="0" max="255" type="range"><br>
+        <button id="copyValues">Copy</button>
+      </div>
+    </div>
+    <div id="section2">
+      <h1 id="section2-title">HTML elements shortcuts</h1>
+      <hr>
+      <div id="elements-select-container">
+      <select id="elements">
+        <option value="notUsable" id="selectElement">Select an element</option>
+        <option value="p">p</option>
+        <option value="div">div</option>
+        <option value="h1">h1</option>
+        <option value="h2">h2</option>
+        <option value="h3">h3</option>
+        <option value="h4">h4</option>
+        <option value="h5">h5</option>
+        <option value="h6">h6</option>
+        <option value="button">button</option>
+        <option value="input">input</option>
+        <option value="notUsable" id="yourElement" value="" style="font-family: sans-serif; font-weight: 800;">Create your own</option>
+      </select>
+      <input type="text" id="attributs" placeholder="Enter attributs">
+      <input id="copy" value="Create Element" type="button" onclick="copyValue()">
+
+    </div>
+    </div>
+  </div>
+  <div id="container2">
+    <div id="section3"></div>
+    <div id="section4"></div>
+  </div>
+  </body>
+  <script src="script.js"></script>
+</html>

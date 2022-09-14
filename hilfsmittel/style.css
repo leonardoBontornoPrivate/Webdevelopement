@@ -1,0 +1,231 @@
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 97%;
+}
+
+#head {
+  display: flex;
+  width: 100%;
+  height: 15vh;
+  background-color: lightgray;
+  font-family: sans-serif;
+  flex-direction: row;
+}
+
+#head #title {
+  margin: 2%;
+  margin-top: 4vh;
+  margin-left: 5%;
+  font-size: 200%;
+  font-weight: 700;
+}
+
+#head #credits {
+  margin: 2%;
+  margin-top: 4vh;
+  margin-left: 15%;
+  font-size: 200%;
+  font-weight: 700;
+  justify-self: flex-end;
+  color: gray;
+}
+
+#Logo {
+  width: 5%;
+  height: 10vh;
+  position: relative;
+  top: 2.5vh;
+  left: 5%;
+  background: url('Bilder/helpdesk_Icon.png');
+  background-size: contain;
+  transition: ease-in-out all 100ms;
+}
+
+hr {
+  width: 48%;
+  position: absolute;
+  top: 30vh;
+}
+
+#container1 {
+  display: flex;
+  flex-direction: row;
+}
+
+#section1 {
+  display: flex;
+  height: 75vh;
+  width: 50%;
+  float: left;
+
+  flex-direction: column;
+
+  border: 1px solid black;
+}
+
+#section2 {
+  display: flex;
+  float: left;
+  height: 75vh;
+  width: 50%;
+
+  flex-direction: column;
+
+  border: 1px solid black;
+}
+
+#container2 {
+  display: flex;
+  flex-direction: row;
+}
+
+#section3 {
+  display: flex;
+  height: 75vh;
+  width: 50%;
+  float: left;
+
+  flex-direction: column;
+
+  border: 1px solid black;
+}
+
+#section4 {
+  display: flex;
+  height: 75vh;
+  width: 50%;
+  float: left;
+
+  flex-direction: column;
+
+  border: 1px solid black;
+}
+
+#elements {
+  max-width: 15%;
+}
+
+#section1 .rgb-btn {
+  max-height: 4vh;
+  height: 4vh;
+  max-width: 10%;
+  width: 10%;
+  align-self: center;
+  margin: 3%;
+
+  color: white;
+  border: none;
+  border-radius: 2px;
+
+  transition: ease-in-out all 100ms;
+}
+
+#section1 .rgb-btn:hover {
+  border-radius: 10px;
+}
+
+#section1 #R {
+  background-color: rgb(300, 20, 20);
+}
+#section1 #G {
+  background-color: rgb(20, 300, 20);
+}
+#section1 #B {
+  background-color: rgb(20, 20, 300);
+}
+
+#section1 .range-rgb {
+  width: 40%;
+  color: red;
+}
+
+#section1 #section1-title {
+  font-family: sans-serif;
+  font-size: 400%;
+  position: relative;
+  top: -3vh;
+  left: 2vh;
+}
+
+#elements-select-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#section2 #section2-title {
+  font-family: sans-serif;
+  font-size: 400%;
+  position: relative;
+  top: -3vh;
+  left: 2vh;
+}
+
+#attributs {
+  position: relative;
+  left: 2.5%;
+  height: 2.5vh;
+}
+
+#elements-select-container {
+  max-width: 90%;
+}
+
+#copy {
+  position: relative;
+  left: 5%;
+}
+
+#section2 select {
+  margin-left: 5%;
+  min-width: 17%;
+}
+
+#section2 hr {
+  position: absolute;
+  top: 25%;
+}
+
+#color-buttons {
+  width: 75%;
+  height: 50vh;
+  margin-left: 20%;
+  background-color: lightgray;
+}
+
+#copyValues {
+  width: 25%;
+  height: 5vh;
+
+  position: relative;
+  top: 2vh;
+  left: 15%;
+
+  border: none;
+
+  background-color: rgb(200, 200, 200);
+  color: rgba(255, 255, 255, 0.6);
+  box-shadow: 3px 3px 3px gray;
+
+  font-size: 200%;
+  font-family: helvetica;
+  font-weight: 700;
+}
+
+#copyValues:hover {
+  opacity: 0.8;
+}
+
+#Logo:hover {
+  transform: scale(1.2);
+}
+
+#head #title:after {
+  content: '';
+  width: 2%;
+  height: 15vh;
+  background-color: gray;
+  position: absolute;
+  top: 0;
+  margin-left: 10%;
+}
