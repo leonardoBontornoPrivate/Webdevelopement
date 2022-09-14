@@ -1,0 +1,56 @@
+#gamefield {
+  width: 500px;
+  height: 250px;
+
+  border: 2px solid black;
+
+  position: relative;
+  top: 150px;
+}
+
+#JumpButton {
+  position: absolute;
+  top: 45vh;
+}
+
+i {
+  position: absolute;
+  top: 50vh;
+}
+
+#player {
+  width: 40px;
+  height: 75px;
+
+  background-color: blue;
+
+  position: absolute;
+  top: 175px;
+}
+
+#enemy {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 460px;
+  top: 210px;
+
+  background-color: red;
+
+  /*animation: enemyMove 1s infinite linear;*/
+}
+
+@keyframes enemyMove {
+  10%{left: 460px;}
+  100%{left: 0px}
+}
+
+@keyframes playerJump {
+  10%{top: 175px;}
+  50%{top: 120px;}
+  100%{top: 175px;}
+}
+
+.Jump {
+  animation: playerJump 500ms;
+}
