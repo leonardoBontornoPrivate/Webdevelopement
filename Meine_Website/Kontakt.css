@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*::Selection {
+  user-select: none;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  height: 1250px;
+}
+
+.wrapper {
+  width: 1300px;
+  max-width: 90%;
+
+  margin: 0 auto;
+}
+
+#header {
+  width: 100%;
+  height: 300px;
+  box-sizing: border-box;
+
+  border-bottom: 1.6px solid rgba(100, 100, 100, 0.7);
+}
+
+#Logo {
+  width: 200px;
+  height: 90px;
+
+  margin-left: 43%;
+
+  background: url(Bilder/Logo.png);
+  background-size: contain;
+
+  transition: ease-in-out all 100ms;
+}
+
+#Links {
+  float: left;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 50px;
+  margin-left: 22%;
+
+  max-width: 750px;
+}
+
+#Links a {
+  font-size: 40px;
+  padding-left: 35px;
+  padding-top: 0px;
+
+  color: rgba(5, 5, 5, 1);
+
+  text-decoration: none;
+
+  font-family: 'Montserrat', sans-serif;
+
+  transition: ease-in-out all 100ms;
+}
+
+.labelStyle {
+  min-width: 100px;
+  max-width: 300px;
+  min-height: 300px;
+  max-height: 500px;
+
+  margin-left: 5%;
+
+  margin-top: 100px;
+  padding: 1px 20px;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: rgba(5, 5, 5, 1);
+
+  float: left;
+
+  border-left: 3px solid rgba(100, 100, 100, 0.7);
+  border-radius: 4px;
+
+  background-color: rgba(150, 150, 150, 0.25);
+}
+
+.label-text {
+  max-width: 400px;
+}
+
+#splitLine01 {
+  width: 800px;
+  margin-top: 30px;
+}
+
+#Anmeldung {
+  height: 560px;
+  width: 750px;
+
+  background-color: rgba(150, 150, 150, 0.25);
+  text-align: center;
+  margin-left: 270px;
+  margin-top: 4%;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: rgba(5, 5, 5, 1);
+
+  float: left;
+
+  border-left: 3px solid rgba(100, 100, 100, 0.7);
+  border-radius: 4px;
+}
+
+.extras {
+  margin: 10px;
+}
+
+#Inputs {
+  height: 390px;
+  width: 700px;
+
+  float: left;
+
+  margin-left: 25px;
+  margin-top: 25px;
+
+  background-color: lightgray;
+
+  border-radius: 20px;
+}
+
+#E-Mail {
+  font-size: 20px;
+  width: 100px;
+  float: left;
+  margin-top: 20px;
+}
+
+#Betreff {
+  font-size: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 500px;
+  margin-left: 25px;
+}
+
+#E-Mail_Input {
+  max-width: 700px;
+  width: 300px;
+  max-height: 15px;
+  margin-top: 20px;
+
+  color: black;
+
+  float: left;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(100, 100, 100, 0.7);
+  outline: none;
+}
+
+#E-Mail_Input::Selection {
+  background-color: rgba(50, 50, 50, 0.25);
+  color: rgba(500, 500, 500, 0.75);
+}
+
+#Betreff_Input::Selection {
+  background-color: rgba(50, 50, 50, 0.25);
+  color: rgba(500, 500, 500, 0.75);
+}
+
+#Betreff_Input {
+  max-width: 700px;
+  width: 300px;
+  max-height: 15px;
+  margin-left: 130px;
+  margin-top: -33px;
+
+  float: left;
+
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+
+  color: black;
+
+  background: none;
+  border: none;
+  border-bottom: 2px solid rgba(100, 100, 100, 0.7);
+  outline: none;
+}
+
+#Nachricht {
+  float: left;
+  font-size: 20px;
+
+  margin-top: 40px;
+  margin-left: 24px;
+}
+
+#Nachricht_Input {
+  float: left;
+  margin-top: 45px;
+  margin-left: 10px;
+
+  background: none;
+  outline: none;
+
+  border: 3px solid rgba(100, 100, 100, 0.7);
+  border-radius: 10px;
+
+  font-family: 'Montserrat', monospace;
+  font-weight: 600;
+
+  padding: 7.5px;
+}
+
+#Nachricht_Input::Selection {
+  background-color: rgba(50, 50, 50, 0.25);
+  color: rgba(500, 500, 500, 0.75);
+}
+
+#Nachricht_Input::-webkit-scrollbar {
+  width: 10px;
+}
+
+#Nachricht_Input::-webkit-scrollbar-track {
+  background-color: rgba(500, 500, 500, 0.65);
+}
+
+#Nachricht_Input::-webkit-scrollbar-thumb {
+  background-color: rgba(50, 50, 50, 0.25);
+}
+
+#Nachricht_Input::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background-color: rgba(50, 50, 50, 0.5);
+}
+
+#submit {
+  float: left;
+  margin-top: 240px;
+  margin-left: -300px;
+
+  font-size: 20px;
+
+  background: none;
+  border-radius: 10px;
+  border: 2px solid rgba(100, 100, 100, 0.7);
+
+  font-family: 'Montserrat', monospace;
+
+  transition: ease-in-out all 150ms;
+
+  padding: 3px;
+}
+
+#submit:hover {
+  background-color: rgba(100, 100, 100, 0.2);
+  transform: scale(1.2);
+}
+
+#Titel {
+  font-size: 30px;
+}
+
+#block {
+  max-width: 500px;
+  height: 3px;
+
+  background-color: rgba(150, 150, 150, 0.5);
+  border: 2px solid rgba(150, 150, 150, 0.00001);
+  border-radius: 2px;
+}
+
+#Links a:hover {
+  transform: translate(0px, -5px);
+  color: rgba(10, 10, 10, 0.5);
+
+  cursor: pointer;
+}
+
+#Logo:hover {
+  cursor: pointer;
+  transform: scale(1.2, 1.2);
+}
