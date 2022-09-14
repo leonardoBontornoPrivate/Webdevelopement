@@ -1,0 +1,190 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+*::selection {
+    color: rgba(71, 88, 56, 0.76);
+    background-color: rgba(51, 247, 2, 0.295);
+}
+
+::-webkit-scrollbar {
+  width: 20px;
+  background-color: green;
+}
+
+::-webkit-scrollbar-track {
+  background-image: linear-gradient(to right, green, rgba(10, 180, 10, 0.8));
+}
+
+::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to right, lightgreen, rgba(5, 80, 5, 0.5));
+
+  box-shadow: 1px 0px 20px green;
+
+  border-radius: 20px;
+}
+
+#BackGrnd {
+    height: 4000px;
+    width: 100%;
+
+    margin-top: 100px;
+
+    background: url(Bilder/Zweig.jpg);
+}
+
+#menu {
+    height: 150px;
+    width: 100%;
+
+    position: fixed;
+    top: 0;
+
+    z-index: 10;
+
+    background-color: rgba(33, 95, 33, 0.55);
+}
+
+#Logo {
+    height: 85px;
+    width: 85px;
+
+    background-color: grey;
+    margin-top: 40px;
+    margin-left: 30px;
+
+    position: fixed;
+    top: 40;
+
+    box-shadow: 4px 4px 2px 1px #23352279;
+
+    background: url(Bilder/Zweig.jpg);
+    background-size: cover;
+}
+
+#überText {
+    z-index: 1;
+    margin-top: 45px;
+    margin-left: 140px;
+    color: rgba(115, 255, 0, 0.451);
+
+    font-family: sans-serif;
+    font-weight: 900;
+    font-size: 35px;
+}
+
+#Label1{
+    width: 1400px;
+    height: 500px;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    border-width: 3px;
+
+    margin-left: 200px;
+    margin-top: 300px;
+
+    float: left;
+
+    box-shadow: 6px 6px 6px 1px #23352279;
+
+    background-color: rgb(26, 128, 0, 0.5);
+}
+
+#Label2 {
+    width: 1400px;
+    height: 500px;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    border-width: 3px;
+
+    float: left;
+
+    margin-left: 200px;
+    margin-top: 525px;
+
+    box-shadow: 6px 6px 6px 1px #23352279;
+
+    background-color: rgb(26, 128, 0, 0.5);
+}
+
+#Label3 {
+    width: 1400px;
+    height: 500px;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    border-width: 3px;
+
+    float: left;
+
+    margin-left: 200px;
+    margin-top: 520px;
+
+    box-shadow: 6px 6px 6px 1px #23352279;
+
+    background-color: rgb(26, 128, 0, 0.5);
+}
+
+#Label4 {
+    width: 1400px;
+    height: 500px;
+
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    border-width: 3px;
+
+    float: left;
+
+    margin-left: 200px;
+    margin-top: 520px;
+
+    box-shadow: 6px 6px 6px 1px #23352279;
+
+    background-color: rgb(26, 128, 0, 0.5);
+}
+
+#menu-with-Links {
+    width: 100%;
+    height: 125px;
+
+    background-color: rgba(115, 255, 0, 0.451);
+}
+
+#Menu {
+    font-size: 30px;
+
+    float: right;
+    margin-top: 50px;
+    margin-right: 200px;
+
+    padding-top: 40px;
+}
+
+#Menu a {
+    text-decoration: none;
+    color: rgba(71, 88, 56, 0.76);
+    font-family: sans-serif;
+    font-weight: 700;
+
+    padding-right: 30px;
+    padding-top: 32px;
+
+    transition: ease-in all 20ms;
+
+
+}
+
+#Menu a:hover {
+    border-top-style: solid;
+    border-color: rgba(102, 151, 58, 0.76);;
+    border-radius: 3px;
+
+    color: rgba(71, 88, 56, 0.31);
+
+}
